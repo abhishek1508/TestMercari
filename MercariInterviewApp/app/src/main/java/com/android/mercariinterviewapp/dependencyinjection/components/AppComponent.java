@@ -9,9 +9,7 @@ import dagger.Component;
 import retrofit2.Retrofit;
 
 @AppScope
-@Component(modules = {AppModule.class, NetworkModule.class})
+@Component(modules = AppModule.class)
 public interface AppComponent {
     void inject(MercariApp app);
-
-    Retrofit retrofit();
 }
