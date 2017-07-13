@@ -23,7 +23,7 @@ public class MercariApp extends Application {
         component = DaggerAppComponent
                 .builder()
                 .appModule(new AppModule(this))
-                //.networkModule(new NetworkModule("baseUrl"))
+                .networkModule(new NetworkModule("https://api.win-kel.com"))
                 .build();
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
