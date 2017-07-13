@@ -1,7 +1,9 @@
-package com.android.mercariinterviewapp;
+package com.android.mercariinterviewapp.home;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.android.mercariinterviewapp.R;
 
 public class HomeActivity extends AppCompatActivity {
 
