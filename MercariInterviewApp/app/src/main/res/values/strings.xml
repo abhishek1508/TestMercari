@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MercariInterviewApp</string>
+    <string name="dollar">$%1$s</string>
 </resources>
